@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/background5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* HeaderPart */
+#header {
+  width: 100%;
+  height: 7rem;
+  background: rgba(213, 167, 243, 0.767);
+  float: left;
+  margin-top: 0.5rem;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.logoPart {
+  width: 20%;
+  height: 6.7rem;
+  float: left;
+  background-color: #a7073752;
+  margin-top: 0.1rem;
+  border-radius: 4rem;
+}
+.logoPart img {
+  width: 75%;
+  margin-left: 3.5rem;
+  margin-top: 0.2rem;
+  border-radius: 4rem;
+}
+.logoPart a h2 {
+  text-decoration: none;
+  position: absolute;
+  font-size: 2rem;
+  margin-top: -7rem;
+  margin-left: 11rem;
+  width: 7.3rem;
+  color: rgb(61, 87, 117);
+}
+.menuPart {
+  width: 60%;
+  float: left;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  /* background: rebeccapurple; */
+}
+.menuPart ul {
+  width: 80%;
+  list-style: none;
+  display: flex;
+}
+.menuPart li {
+  margin: auto;
+}
+.menuPart a {
+  text-decoration: none;
+  color: brown;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.menuPart li:hover {
+  transform: scale(1.5);
+}
+.searchPart {
+  width: 20%;
+  float: left;
+  margin-top: 1.5rem;
+  /* background: blue; */
+}
+.searchPart input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  outline: none;
+  font-weight: 400;
+  border: 0.2rem solid #365463;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: #365463;
+  background: transparent;
+  border-radius: 2rem;
+}
+.searchPart i {
+  position: absolute;
+  float: left;
+  margin-left: -4rem;
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+}
+
+/* HeroPart */
+#hero {
+  width: 100%;
+  float: left;
+}
+.heroWritingPart {
+  width: 50%;
+  float: left;
+  clear: both;
+  margin-top: 12rem;
+}
+.heroWritingPart h3 {
+  color: darkcyan;
+  font-size: 2rem;
+}
+.heroWritingPart h2 {
+  color: #e71f58;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+}
+.heroWritingPart h2 span {
+  color: #365463;
+  display: flex;
+  justify-content: space-around;
+  margin-left: -15rem;
+}
+.heroWritingPart p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  padding-right: 9rem;
+}
+.heroWritingPart button {
+  color: #fff;
+  background: #2539889f;
+  text-decoration: none;
+  text-transform: uppercasefon;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding: 1rem 2rem;
+  border-radius: 1.8rem;
+  outline: none;
+  border-width: 0.1rem;
+  border-color: #f0dee3;
+}
+.heroWritingPart button:hover {
+  background: #e71f58;
+  cursor: pointer;
+}
+.heroImagePart {
+  width: 45%;
+  float: left;
+}
+.heroImagePart img {
+  width: 70%;
+  display: block;
+  margin-top: 6rem;
+  background: #36546370;
+  border-radius: 21rem;
+}
+.icon {
+  width: 5%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 3rem;
+  margin-top: 33rem;
+}
+.icon a i {
+  background: rgba(14, 71, 67, 0.795);
+  border-radius: 2rem;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  color: #0a1b47;
+}
+.icon a i:hover {
+  background: #dec1eb;
+  transform: scale(1.4);
+}
+
+/* Responsive website code  */
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768) {
+  html {
+    font-size: 30%;
+  }
+}
